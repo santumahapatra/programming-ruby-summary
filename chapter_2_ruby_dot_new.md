@@ -36,12 +36,12 @@
 * Creating a Hash - 
 ```ruby
   inst_section = {
-    'cello' => 
-    'clarinet' =>
-    'drum' =>
-    'oboe' =>
-    'trumpet' =>
-    'violin' =>
+    'cello' => 'string',
+    'clarinet' => 'woodwind',
+    'drum' => 'percussion',
+    'oboe' => 'woodwind',
+    'trumpet' => 'brass',
+    'violin' => 'string'
   }
 
   p inst_section['cello']
@@ -163,5 +163,5 @@ printf("Velocity : %5.2f, \n %s", 2.1, "pomodoros" )
 Running the File
 
 ```shell
-  ruby cmd_line.rb hello world
+  $ ruby cmd_line.rb hello world
 ```
